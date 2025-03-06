@@ -1,0 +1,47 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Custom Styling */
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Adjustments for Navigation */
+nav ul li a:hover {
+    color: #ff6600;
+}
